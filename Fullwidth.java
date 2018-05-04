@@ -18,8 +18,8 @@ public class Fullwidth {
    * Returns the fullwidth version of a character.
    * If no fullwidth version exists, returns the character.
    *
-   * @param c The character to make fullwide.
-   * @return The fullwide character, if possible; otherwise, c.
+   * @param c The character to make fullwidth.
+   * @return The fullwidth character, if possible; otherwise, c.
    */
   private static char widenChar(char c) {
     if (127 > c && c > 32) {
@@ -32,8 +32,8 @@ public class Fullwidth {
    * Returns the fullwidth version of a character.
    * If no fullwidth version exists, returns the character.
    *
-   * @param c The int representation of the character to make fullwide.
-   * @return The fullwide character, if possible; otherwise, (char) c.
+   * @param c The int representation of the character to make fullwidth.
+   * @return The fullwidth character, if possible; otherwise, (char) c.
    */
   private static char widenChar(int c) {
     return widenChar((char) c);
