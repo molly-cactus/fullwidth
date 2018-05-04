@@ -13,4 +13,4 @@
 (defn fullwidth [cs]
   (apply str (map widen-char cs)))
 
-(print (fullwidth (clojure.string/join " " *command-line-args*)))
+(print (fullwidth (clojure.string/join \space *command-line-args*)))
