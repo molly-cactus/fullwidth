@@ -16,7 +16,7 @@ public class Fullwidth {
 
   /**
    * Returns the fullwidth version of a character.
-   * If no fullwidth version exists, returns the character."
+   * If no fullwidth version exists, returns the character.
    *
    * @param c The character to make fullwide.
    * @return The fullwide character, if possible; otherwise, c.
@@ -30,7 +30,7 @@ public class Fullwidth {
 
   /**
    * Returns the fullwidth version of a character.
-   * If no fullwidth version exists, returns the character."
+   * If no fullwidth version exists, returns the character.
    *
    * @param c The int representation of the character to make fullwide.
    * @return The fullwide character, if possible; otherwise, (char) c.
